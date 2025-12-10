@@ -12,34 +12,46 @@ description: "Task list template for feature implementation"
 
 **Organization**: Tasks are grouped by user story to enable independent implementation and testing of each story.
 
+**Constitution Alignment**: All tasks must ensure browser-first experience (<2 mins setup), hands-on interactivity, and inclusive accessibility (Hinglish + emojis).
+
 ## Format: `[ID] [P?] [Story] Description`
 
 - **[P]**: Can run in parallel (different files, no dependencies)
 - **[Story]**: Which user story this task belongs to (e.g., US1, US2, US3)
 - Include exact file paths in descriptions
+- Tasks must support browser-based, hands-on experience as per constitution
 
 ## Path Conventions
 
 - **Single project**: `src/`, `tests/` at repository root
 - **Web app**: `backend/src/`, `frontend/src/`
 - **Mobile**: `api/src/`, `ios/src/` or `android/src/`
+- For Physical AI book: Focus on client-side browser implementations
 - Paths shown below assume single project - adjust based on plan.md structure
 
-<!-- 
+<!--
   ============================================================================
   IMPORTANT: The tasks below are SAMPLE TASKS for illustration purposes only.
-  
+
   The /sp.tasks command MUST replace these with actual tasks based on:
   - User stories from spec.md (with their priorities P1, P2, P3...)
   - Feature requirements from plan.md
   - Entities from data-model.md
   - Endpoints from contracts/
-  
+
   Tasks MUST be organized by user story so each story can be:
   - Implemented independently
   - Tested independently
   - Delivered as an MVP increment
-  
+
+  Tasks MUST align with Physical AI book constitution:
+  - Browser-First Experience: All examples run in browser in <2 mins
+  - Hands-On Mastery: Each concept has interactive examples
+  - Inclusive Accessibility: Casual Hinglish English + emojis
+  - Progressive Learning: Build from simple to complex
+  - Real-World Relevance: Practical applications
+  - Community-Driven Growth: Encourage experimentation
+
   DO NOT keep these sample tasks in the generated tasks.md file.
   ============================================================================
 -->
@@ -150,12 +162,15 @@ Examples of foundational tasks (adjust based on your project):
 
 **Purpose**: Improvements that affect multiple user stories
 
-- [ ] TXXX [P] Documentation updates in docs/
+- [ ] TXXX [P] Documentation updates in docs/ ensuring Hinglish + emojis as per constitution
 - [ ] TXXX Code cleanup and refactoring
-- [ ] TXXX Performance optimization across all stories
+- [ ] TXXX Performance optimization ensuring <2 mins browser load time
 - [ ] TXXX [P] Additional unit tests (if requested) in tests/unit/
 - [ ] TXXX Security hardening
-- [ ] TXXX Run quickstart.md validation
+- [ ] TXXX Accessibility improvements following inclusive design principles
+- [ ] TXXX Run quickstart.md validation ensuring browser-first experience
+- [ ] TXXX Verify all examples work in major browsers (Chrome, Firefox, Safari, Edge)
+- [ ] TXXX Confirm all content aligns with progressive learning approach
 
 ---
 

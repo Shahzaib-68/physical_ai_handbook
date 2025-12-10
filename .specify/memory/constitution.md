@@ -1,55 +1,35 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# Physical AI – Hands-On Book for Everyone Constitution
 
-## Core Principles
+## Vision
+Make physical AI accessible to everyone with hands-on projects that run instantly in your browser! 🚀
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+## Who This Book Is For
+Absolute beginners to intermediate learners - from school kids curious about robots to college students and self-taught developers exploring physical AI without complex theory. Come join the fun! 🌟
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+## 6 Core Principles
+1. **Hands-On Vibes Only** 🛠️ - No theory without practice! Every concept has a fun browser project.
+2. **Zero Setup Maza** 🎉 - Everything runs in browser, no installations, just pure coding fun from the start.
+3. **Quick Wins** 🏆 - Every project runs in under 2 minutes for instant learning gratification.
+4. **Chill & Learn** 🧘‍♂️ - Friendly approachable language, no corporate stiffness.
+5. **Make It Yours** 🎨 - Customize and experiment with every project to make it your own.
+6. **Community Powered** 🤝 - Share, help, and learn together as builders and dreamers.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+## Success Looks Like
+Learners building physics sims and robot controllers in weeks, not months! Students sharing projects online with excitement, creating a community of makers not afraid to experiment. Real success = smiles during coding and "aha" moments! 📈🎯
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+## Hard Rules
+- Every chapter has a working browser project
+- No chapter >10 mins to implement
+- Zero local setup requirements
+- Every project has "make it your own" challenge
+- Each concept has visual demonstration
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Voice & Tone
+Your chill, excited friend on the weekend! Mix of English and Hinglish, keeping things light but informative. No corporate jargon, no academic stiffness - just real talk with emojis. Bas yeh kar do, aur dekho kitna maza aata hai! (Just try this, and see how fun it gets!) 
 
-### [PRINCIPLE_6_NAME]
+## Tech Promise
+Built with Docusaurus for sleek learning. All projects run in browser with WebAssembly and Three.js. Fast loading, responsive interactions, easy to inspect and modify code - because seeing is believing, modifying is learning! 💻
 
+Let's make physical AI accessible to everyone and have an absolute blast doing it! 🤖✨
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
-
-## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
-
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-06-13 | **Last Amended**: 2025-12-09

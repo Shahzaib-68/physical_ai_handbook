@@ -1,0 +1,274 @@
+/* Custom styles for the Physical AI book */
+.interactive-demo {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #f9f9f9;
+}
+
+.interactive-demo .demo-header {
+  margin-bottom: 16px;
+}
+
+.interactive-demo .demo-editor {
+  margin: 16px 0;
+}
+
+.interactive-demo .editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.interactive-demo .editor-controls button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  background-color: #007cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.interactive-demo .editor-controls button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.interactive-demo .code-editor {
+  width: 100%;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.interactive-demo .demo-output {
+  margin-top: 16px;
+}
+
+.interactive-demo .output-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.interactive-demo .execution-time {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.interactive-demo .execution-result {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  min-height: 50px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+.interactive-demo .demo-challenge {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #e8f4fc;
+  border-left: 4px solid #007cba;
+  border-radius: 0 4px 4px 0;
+}
+
+.progress-tracker {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #f9f9f9;
+}
+
+.progress-bar-container {
+  margin-bottom: 16px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #007cba;
+  transition: width 0.3s ease;
+}
+
+.progress-stats {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 4px;
+}
+
+.chapter-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.chapter-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.chapter-item.completed {
+  background-color: #e8f5e9;
+}
+
+.chapter-item.current {
+  background-color: #fff3cd;
+  font-weight: bold;
+}
+
+.chapter-index {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.status.completed {
+  margin-left: auto;
+  color: green;
+  font-weight: bold;
+}
+
+.complete-btn {
+  margin-left: auto;
+  padding: 4px 8px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.make-it-your-own {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #f9f9f9;
+}
+
+.make-it-your-own .challenge-section {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.make-it-your-own .input-group {
+  margin-bottom: 12px;
+}
+
+.make-it-your-own .input-group label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.make-it-your-own .input-group input,
+.make-it-your-own .input-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.make-it-your-own .code-editor {
+  width: 100%;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.make-it-your-own .actions {
+  margin-top: 16px;
+  text-align: right;
+}
+
+.make-it-your-own .save-btn {
+  padding: 8px 16px;
+  background-color: #007cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.make-it-your-own .save-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.make-it-your-own .error {
+  color: #dc3545;
+  margin-top: 8px;
+}
+
+.make-it-your-own .success {
+  color: #28a745;
+  margin-top: 8px;
+}
+
+.hinglish-term {
+  background-color: #ffffcc; /* Light yellow background */
+  border-bottom: 1px dotted #ff9900; /* Orange dotted underline */
+  cursor: help; /* Show help cursor on hover */
+  padding: 0 2px;
+}
+
+/* Style for the physics simulator component */
+.physics-simulator {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+/* Style for error containers */
+.error-container {
+  padding: 16px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  margin: 16px 0;
+}
+
+.error-container button {
+  margin-top: 8px;
+  padding: 4px 8px;
+  background-color: #721c24;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Additional styles for accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
