@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext, useContext, useState } from 'react';
 
 interface ErrorHandlerProps {
   error?: Error | string | null;
@@ -41,7 +41,6 @@ export const ErrorHandler: React.FC<ErrorHandlerProps> = ({
 };
 
 // Context for global error handling
-import React, { createContext, useContext, useState } from 'react';
 
 interface ErrorContextType {
   error: Error | null;

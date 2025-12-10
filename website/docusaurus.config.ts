@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Physical AI – Hands-On Book for Everyone',
-  tagline: 'Making Physical AI accessible to everyone with hands-on browser projects',
+  title: 'Physical AI & Humanoid Robotics',
+  tagline: 'A Comprehensive Guide to Building the Next Generation of Intelligent Machines',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -18,12 +18,14 @@ const config: Config = {
   url: 'https://your-username.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/the-physical-ai-handbook/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'your-username', // Usually your GitHub org/user name.
-  projectName: 'the-physical-ai-handbook', // Usually your repo name.
+  projectName: 'physical-ai-humanoid-robotics-textbook', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
@@ -75,9 +77,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Physical AI Book',
+      title: 'Physical AI & Humanoid Robotics',
       logo: {
-        alt: 'Physical AI Book Logo',
+        alt: 'Physical AI & Humanoid Robotics Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -85,11 +87,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Chapters',
+          label: 'Textbook',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/your-username/the-physical-ai-handbook',
+          href: 'https://github.com/your-username/physical-ai-humanoid-robotics-textbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -99,11 +101,23 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Chapters',
+          title: 'Modules',
           items: [
             {
-              label: 'Introduction',
+              label: 'Module 1: The Robotic Nervous System',
               to: '/docs/intro',
+            },
+            {
+              label: 'Module 2: The Digital Twin',
+              to: '/docs/category/module-2-the-digital-twin',
+            },
+            {
+              label: 'Module 3: The AI-Robot Brain',
+              to: '/docs/category/module-3-the-ai-robot-brain',
+            },
+            {
+              label: 'Module 4: Vision-Language-Action',
+              to: '/docs/category/module-4-vision-language-action',
             },
           ],
         },
@@ -133,12 +147,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/your-username/the-physical-ai-handbook',
+              href: 'https://github.com/your-username/physical-ai-humanoid-robotics-textbook',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI Book. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
