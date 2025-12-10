@@ -18,7 +18,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Introduction to Physical AI',
-      items: ['intro'],
+      items: ['intro/index'],
       collapsed: false,
     },
     {

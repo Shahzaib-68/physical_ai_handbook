@@ -109,15 +109,15 @@ const config: Config = {
             },
             {
               label: 'Module 2: The Digital Twin',
-              to: '/docs/category/module-2-the-digital-twin',
+              to: '/docs/module-2/chapter-2-1',
             },
             {
               label: 'Module 3: The AI-Robot Brain',
-              to: '/docs/category/module-3-the-ai-robot-brain',
+              to: '/docs/module-3/chapter-3-1',
             },
             {
               label: 'Module 4: Vision-Language-Action',
-              to: '/docs/category/module-4-vision-language-action',
+              to: '/docs/module-4/chapter-4-1',
             },
           ],
         },
